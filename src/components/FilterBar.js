@@ -4,8 +4,8 @@ function FilterBar({ filters, setFilters }) {
   const handleFilterChange = (e) => {
     const { name, checked } = e.target;
     setFilters((prevFilters) => ({
-      ...prevFilters,  // Spread the previous filters
-      [name]: checked, // Update the filter for the specific bot class
+      ...prevFilters,  
+      [name]: checked, 
     }));
   };
 

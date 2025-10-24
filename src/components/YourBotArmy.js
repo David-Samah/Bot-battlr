@@ -11,10 +11,10 @@ const YourBotArmy = ({ army, onRelease, onDelete }) => {
           <p>Damage: {bot.damage}</p>
           <p>Armor: {bot.armor}</p>
 
-          {/* Release Button */}
+          {}
           <button onClick={() => onRelease(bot.id)}>Release</button>
 
-          {/* Delete Button */}
+          {}
           <button onClick={() => onDelete(bot.id)}>Delete</button> {/* Ensure onDelete is passed */}
         </div>
       ))}
